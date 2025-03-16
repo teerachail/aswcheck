@@ -25,5 +25,14 @@ export default defineNuxtConfig({
         braceStyle: '1tbs'
       }
     }
-  }
+  },
+
+  security: {
+    strict: true,
+    headers: {
+      contentSecurityPolicy: {
+        'img-src': ['https://ui-pro-starter.nuxt.dev'],
+      },
+    }
+  },
 })
