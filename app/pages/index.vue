@@ -1,7 +1,7 @@
 <template>
   <div>
     <UPageHero
-      title="Nuxt UI Pro - Secured"
+      title="Nuxt UI Pro - More Secured"
       description="Nuxt UI Pro is a collection of premium components built on top of Nuxt UI to create beautiful & responsive applications in minutes."
       :links="[{
         label: 'Get started',
